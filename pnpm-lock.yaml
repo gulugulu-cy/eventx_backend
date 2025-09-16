@@ -25,8 +25,8 @@ importers:
         version: 2.37.0
     devDependencies:
       '@faker-js/faker':
-        specifier: ^10.0.0
-        version: 10.0.0
+        specifier: ^9.9.0
+        version: 9.9.0
       '@midwayjs/egg-ts-helper':
         specifier: ^1.0.1
         version: 1.2.1
@@ -264,9 +264,9 @@ packages:
     resolution: {integrity: sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==}
     engines: {node: ^10.12.0 || >=12.0.0}
 
-  '@faker-js/faker@10.0.0':
-    resolution: {integrity: sha512-UollFEUkVXutsaP+Vndjxar40Gs5JL2HeLcl8xO1QAjJgOdhc3OmBFWyEylS+RddWaaBiAzH+5/17PLQJwDiLw==}
-    engines: {node: ^20.19.0 || ^22.13.0 || ^23.5.0 || >=24.0.0, npm: '>=10'}
+  '@faker-js/faker@9.9.0':
+    resolution: {integrity: sha512-OEl393iCOoo/z8bMezRlJu+GlRGlsKbUAN7jKB6LhnKoqKve5DXRpalbItIIcwnCjs1k/FOPjFzcA6Qn+H+YbA==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
   '@hapi/bourne@3.0.0':
     resolution: {integrity: sha512-Waj1cwPXJDucOib4a3bAISsKJVb15MKi9IvmTI/7ssVEm6sywXGjVJDhl6/umt1pK1ZS7PacXU3A1PmFKHEZ2w==}
@@ -4361,7 +4361,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@faker-js/faker@10.0.0': {}
+  '@faker-js/faker@9.9.0': {}
 
   '@hapi/bourne@3.0.0': {}
 
